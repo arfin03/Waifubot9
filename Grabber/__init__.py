@@ -19,8 +19,8 @@ LOGGER = logging.getLogger(__name__)
 OWNER_ID = 6691393517
 sudo_users = ["6691393517", "6691393517"]
 GROUP_ID = -1001802990747
-TOKEN = "6576720076:AAEddcdbfSTBvGaPhqWKrSayoXnIL0YtG18"
-mongo_url = "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
+TOKEN = "6576720076:AATBvGaPhqWKrSayoXnIL0YtG18"
+mongo_url = "mongodb+srv://te3:te23@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/72ea883532b722f405059.jpg", "https://telegra.ph/file/72ea883532b722f405059.jpg"]
 SUPPORT_CHAT = "HEROKUFREECC"
 UPDATE_CHAT = "HEROKUFREECC"
