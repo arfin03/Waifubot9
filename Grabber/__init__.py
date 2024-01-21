@@ -16,18 +16,18 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = 6691393517
-sudo_users = ["6691393517", "6691393517"]
-GROUP_ID = -1001802990747
-TOKEN = "6576720076:AATBvGaPhqWKrSayoXnIL0YtG18"
-mongo_url = "mongodb+srv://te3:te23@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority"
+OWNER_ID = 5932230962
+sudo_users = ["5932230962", "5932230962"]
+GROUP_ID = -1001924285977
+TOKEN = "6512496443:AAEoBRxK2cP4l3qK8TKbDx54F8Mw9398eTs"
+mongo_url = "mongodb+srv://edit72160:edit72160@cluster0.aceg9xy.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/72ea883532b722f405059.jpg", "https://telegra.ph/file/72ea883532b722f405059.jpg"]
-SUPPORT_CHAT = "HEROKUFREECC"
-UPDATE_CHAT = "HEROKUFREECC"
-BOT_USERNAME = "AnzooBot"
-CHARA_CHANNEL_ID = -1001802990747
-api_id = 6435225
-api_hash = "4e984ea35f854762dcde906dce426c2d"
+SUPPORT_CHAT = "TEAMS_VG"
+UPDATE_CHAT = "TEAMS_VG"
+BOT_USERNAME = "Husbando_x_robot"
+CHARA_CHANNEL_ID = -1001924285977
+api_id = 20574660
+api_hash = "6e21188e487b96af1ff5429dedada8ff"
 
 
 application = Application.builder().token(TOKEN).build()
