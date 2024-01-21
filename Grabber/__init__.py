@@ -20,7 +20,7 @@ OWNER_ID = 5932230962
 sudo_users = ["5932230962", "5932230962"]
 GROUP_ID = -1001924285977
 TOKEN = "6512496443:AAEoBRxK2cP4l3qK8TKbDx54F8Mw9398eTs"
-mongo_url = "mongodb+srv://<username>:<password>@cluster0.dvquw0g.mongodb.net/?retryWrites=true&w=majority"
+mongo_url = "mongodb+srv://ha:hi@cluster0.dvquw0g.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/72ea883532b722f405059.jpg", "https://telegra.ph/file/72ea883532b722f405059.jpg"]
 SUPPORT_CHAT = "TEAMS_VG"
 UPDATE_CHAT = "TEAMS_VG"
