@@ -132,22 +132,21 @@ async def broadcast(update: Update, context: CallbackContext) -> None:
 
 
 async def stats(update: Update, context: CallbackContext) -> None:
-    try:
-        user_id_str = str(update.effective_user.id)
-        
-        if user_id_str not in map(str, OWNER_ID):
-            update.message.reply_text('Only for authorized users...')
-            return
+    
+    if str(update.effective_user.id) not in OWNER_ID:
+        update.message.reply_text('only For Sudo users...')
+        return
 
-        user_count = await user_collection.count_documents({})
-        group_count = await group_user_totals_collection.distinct('group_id')
+    
+    user_count = await user_collection.count_documents({})
 
-        await update.message.reply_text(f'Total Users: {user_count}\nTotal groups: {len(group_count)}')
 
-    except Exception as e:
-        print(f"Error in stats function: {e}")
-        update.message.reply_text('An unexpected error occurred. Please try again later.')
-      
+    group_count = await group_user_totals_collection.distinct('group_id')
+
+
+    await update.message.reply_text(f'Total Users: {user_count}\nTotal groups: {len(group_count)}')
+
+
 
 async def send_users_document(update: Update, context: CallbackContext) -> None:
     if str(update.effective_user.id) not in SUDO_USERS:
