@@ -16,15 +16,15 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger("pyrate_limiter").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
-OWNER_ID = 5932230962
-sudo_users = ["5932230962", "5932230962"]
+OWNER_ID = 6649432492
+sudo_users = ["5932230962", "6649432492"]
 GROUP_ID = -1001924285977
-TOKEN = "6437630510:AAEPX0STrNcwoXm0iNgRfLoovIgNPqPM8lA"
+TOKEN = "7131645418:AAFdO7L8XmPpFhbHmilpK1rjwTner5Rc5vQ"
 mongo_url = "mongodb+srv://husbando:husbando@cluster0.pipkivx.mongodb.net/?retryWrites=true&w=majority"
 PHOTO_URL = ["https://telegra.ph/file/72ea883532b722f405059.jpg", "https://telegra.ph/file/72ea883532b722f405059.jpg"]
 SUPPORT_CHAT = "TEAMS_VG"
 UPDATE_CHAT = "TEAMS_VG"
-BOT_USERNAME = "Husbando_x_robot"
+BOT_USERNAME = "Testsajakokbot"
 CHARA_CHANNEL_ID = -1001924285977
 api_id = 20574660
 api_hash = "6e21188e487b96af1ff5429dedada8ff"
